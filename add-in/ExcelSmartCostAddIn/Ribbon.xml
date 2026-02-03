@@ -1,0 +1,13 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+  <ribbon>
+    <tabs>
+      <tab id="ExcelSmartCostTab" label="ExcelSmartCost">
+        <group id="grpQty" label="工程量计算">
+          <button id="btnRecalc" label="重算当前表" size="large" onAction="OnRecalcSheet" />
+          <button id="btnImportLib" label="导入库" onAction="OnImportLibrary" />
+          <button id="btnComponents" label="构件库" onAction="OnManageComponents" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

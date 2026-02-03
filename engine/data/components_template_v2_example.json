@@ -1,0 +1,19 @@
+{
+  "sheet": "components",
+  "columns": [
+    "name",
+    "params_json",
+    "outputs_json",
+    "formulas_json",
+    "version",
+    "description"
+  ],
+  "example_row": {
+    "name": "Beam",
+    "params_json": "[{\"key\": \"width\", \"unit\": \"m\", \"required\": true}, {\"key\": \"height\", \"unit\": \"m\", \"required\": true}, {\"key\": \"len\", \"unit\": \"m\", \"required\": true}]",
+    "outputs_json": "[{\"key\": \"volume_m3\", \"name\": \"混凝土体积\", \"unit\": \"m3\", \"primary\": true}]",
+    "formulas_json": "{\"volume_m3\": \"width*height*len\"}",
+    "version": "1.0",
+    "description": "示例：梁体积"
+  }
+}

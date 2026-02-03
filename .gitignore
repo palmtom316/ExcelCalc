@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+dist/
+build/
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# VS / VSTO
+.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS
+.DS_Store
